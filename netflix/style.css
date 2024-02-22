@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), radial-gradient(transparent 10%, black), url(https://cinebox.vn/en/wp-content/uploads/how-much-does-netflix-pay-for-a-movie.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* box-shadow: inset -12px -8px 40px #46464620; */
+    /* background-image: radial-gradient(transparent 50%, black); */
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    padding: 30px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.box {
+    width: 30px;
+    height: 20px;
+    border: 2px solid white;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-right: 10px;
+    background: transparent;
+}
+
+select {
+    margin: 0 13px;
+    font-size: 0.9rem;
+    padding: 8px 20px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.english{
+    color: black;
+}
+.hindi{
+    color: black;
+}
+.sign{
+   color: rgb(255, 255, 255);
+   background-color: rgb(228, 13, 13);
+   padding: 7px  15px;
+   font-family: 'Poppins';
+   outline: none;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+   transition: 0.4s ease;
+}
+.sign:hover{
+    background-color: rgb(181, 6, 6);
+}
+.content{
+    color: white;
+    font-family: 'Poppins';
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    font-weight: 900;
+}
+.smallline{
+    font-weight: 300;
+    font-size: 20px;
+    padding: 8px 0;
+}
+.moreline{
+    font-weight: 300;
+    font-size: 20px;
+}
+input{
+    background: transparent;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 5px;
+    width: 35%;
+    height: 50px;
+    margin-top: 5px;
+    padding-left: 20px;
+    margin-right: 5px;
+    font-family: 'Poppins';
+    color: white;
+}
+.button{
+    width: 110px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(235, 56, 56);
+    color: white;
+    border: none;
+    font-family: 'Poppins';
+    transition: 0.4s ease;
+}
+.button:hover{
+    background-color: rgb(173, 6, 6);
+}
+.line1{
+    height: 7px;
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+}
+.tv{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: #ffff;
+    font-family: 'poppins';
+}
+.enjoy{
+    color: white;
+    font-family: 'Poppins';
+    margin-top: 13%;
+    font-weight: 900;
+    margin-left: 14%;
+    font-size: 45px;
+}
+.play{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-left: 14%;
+    font-size: 20px;
+}
+.tvstand{
+    position: absolute;
+    left: 57%;top: 110%;
+    height: 47%;
+
+}
+.inter{
+    position: absolute;
+    left: 61%;top: 120%;
+    height: 183px;
+}
+.moblie{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    color: #ffff;
+    font-family: 'poppins';
+}
+.netofmob{
+    margin-top: 4%;
+    margin-left: 10%;
+    height: 400px;
+}
+.box{
+    position: absolute;
+    left: 18%;top: 220%;
+    height: 70px;
+    width: 260px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(103, 101, 101);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+
+}
+.down{
+    height: 70px;
+}
+.name{
+    position: absolute;
+    left: 100px; bottom: 45px;
+}
+.Downloding{
+    position: absolute;
+    left: 100px; bottom: 25px;
+    font-weight: 400;
+    color: rgb(75, 75, 247);
+}
+.dowtile{
+    font-size: 40px;
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    top: 190%;
+}
+.dowlist{
+    position: absolute;
+    left: 50%;
+    top: 207%;
+    font-weight: 400;
+}
+.line2{
+    height: 7px;
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+}
+.everywhere{
+    width: 100%;
+    height: 490px;
+    background-color: black;
+    color: #ffff;
+    font-family: 'poppins';
+}
+.everywheretitle{
+    color: white;
+    margin-left: 190px;
+    margin-top: 180px;
+    font-size: 50px;
+}
+.everywherebottom{
+    color: white;
+    margin-left: 190px;
+    margin-top: 3px;
+    font-weight: 400;
+}
+.ipad{
+    position: absolute;
+    top: 255%;left: 10%;
+    margin-left: 45%;
+    margin-bottom: 20%;
+    height: 380px;
+}
+.moplay{
+    position: absolute;
+    top: 260%;left: 60%;
+    height: 155px;
+}
+.line3{
+    margin-top: 170px;
+    height: 7px;
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+}
+.child{
+    width: 100%;
+    height: 480px;
+    background-color: black;
+    color: #ffff;
+    font-family: 'poppins';
+}
+.cart{
+    height: 390px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.creatprofile{
+    font-weight: 900;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;top: 330%;
+}
+.chlidtext{
+    position: absolute;
+    left: 50%;top: 339%;
+    font-weight: 400;
+}
+.ques{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    color: #ffff;
+    font-family: 'poppins';
+    /* text-align: center; */
+}
+.Frequently{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0;
+}
+.box1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 1100px;
+    height: 90px;
+    background-color: rgb(60, 60, 60);
+    transition: 0.4s;
+}
+.box1:hover{
+    background-color: rgb(94, 93, 93);
+}
+.what{
+    font-weight: 300;
+    padding: 20px;
+}
+h1{
+    padding-right: 25px;
+}
+.box2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 1100px;
+    height: 90px;
+    background-color: rgb(57, 56, 56);
+}
+.box2:hover{
+    background-color: rgb(94, 93, 93);
+}
+.box3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 1100px;
+    height: 90px;
+    background-color: rgb(57, 56, 56);
+}
+.box3:hover{
+    background-color: rgb(94, 93, 93);
+}
+.readytowatch{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 300;
+}
+.emailbotton{
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+.footer{
+    width: 100%;
+    height: 440px;
+    background-color: rgb(0, 0, 0);
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+}
+.boxe a{
+    padding: 5px;
+    display: block;
+    font-family: 'poppins';
+    color: rgb(167, 165, 165);
+}
+.boxe .question{
+  position: absolute;
+  top: 525%;
+}
+.last{
+    position: absolute;
+    top: 554%;left: 7%;
+}
